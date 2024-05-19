@@ -1,7 +1,9 @@
-import React from 'react'
+import React from 'react';
 
 export default function SignIn() {
   return (
-    <div>SignIn</div>
+    <div className="flex justify-center items-center min-h-screen">
+        <h1>SignIn</h1>
+    </div>
   );
 };

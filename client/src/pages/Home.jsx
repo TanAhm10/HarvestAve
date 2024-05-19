@@ -1,7 +1,9 @@
-import React from 'react'
+import React from 'react';
 
 export default function Home() {
   return (
-    <div>Home</div>
+    <div className="flex justify-center items-center min-h-screen">
+        <h1>Home</h1>
+    </div>
   );
 };
