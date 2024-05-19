@@ -20,7 +20,7 @@ export default function Header() {
             <li className='text-black cursor-pointer hover:text-orange-500'>Submissions</li>
           </Link>
           <Link to='/sign-in'>
-            <li className='text-black cursor-pointer hover:text-orange-500'>Sign In</li>
+            <li className='text-black cursor-pointer hover:text-orange-500'>SignIn</li>
           </Link>
         </ul>
       </div>
