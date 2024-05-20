@@ -37,7 +37,7 @@ export default function Header() {
     <header className='fixed top-0 left-0 w-full z-10 bg-white shadow-sm'>
       <div className='max-w-6xl mx-auto p-3 flex justify-between items-center'>
         <Link to='/' className='flex-shrink-0'>
-          <img src={logo} alt='Logo' className='h-14 w-20' />
+          <img src={logo} alt='Logo' className='h-20 w-28' />
         </Link>
         <div className='hidden md:flex gap-12 font-space-grotesk'>
           <NavLinks />
