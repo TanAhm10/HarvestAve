@@ -1,6 +1,7 @@
 import React from 'react';
 import pumpkin from '../assets/pumpkin.png';
 import pumpkin2 from '../assets/pumpkin2.png';
+//hello
 
 export default function Home() {
   return (
