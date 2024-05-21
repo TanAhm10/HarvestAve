@@ -7,16 +7,16 @@ import logo from '../assets/logo.png';
 const NavLinks = ({ isMobile = false }) => (
   <ul className={`flex ${isMobile ? 'flex-col gap-6 items-center' : 'gap-12'} font-space-grotesk`}>
     <li>
-      <Link to="/" className="text-black cursor-pointer hover:text-orange-500">Home</Link>
+      <Link to="/" className="text-black cursor-pointer hover:text-orange-500">HOME</Link>
     </li>
     <li>
-      <Link to="/about" className="text-black cursor-pointer hover:text-orange-500">About</Link>
+      <Link to="/about" className="text-black cursor-pointer hover:text-orange-500">ABOUT</Link>
     </li>
     <li>
-      <Link to="/submissions" className="text-black cursor-pointer hover:text-orange-500">Submissions</Link>
+      <Link to="/submissions" className="text-black cursor-pointer hover:text-orange-500">SUBMISSIONS</Link>
     </li>
     <li>
-      <Link to="/sign-in" className="text-black cursor-pointer hover:text-orange-500">Sign In</Link>
+      <Link to="/sign-in" className="text-black cursor-pointer hover:text-orange-500">SIGN IN</Link>
     </li>
   </ul>
 );
@@ -34,10 +34,10 @@ export default function Header() {
   }, [location.pathname]);
 
   return (
-    <header className='fixed top-0 left-0 w-full z-10 bg-white shadow-sm'>
+    <header className='fixed top-0 left-0 w-full z-10 bg-#AFE1AF shadow-sm'>
       <div className='max-w-6xl mx-auto p-3 flex justify-between items-center'>
         <Link to='/' className='flex-shrink-0'>
-          <img src={logo} alt='Logo' className='h-20 w-28' />
+          <img src={logo} alt='Logo' className='h-24 w-28' />
         </Link>
         <div className='hidden md:flex gap-12 font-space-grotesk'>
           <NavLinks />
@@ -55,7 +55,7 @@ export default function Header() {
             initial={{ height: 0 }}
             animate={{ height: "auto" }}
             exit={{ height: 0 }}
-            className="overflow-hidden bg-white md:hidden"
+            className="overflow-hidden bg-#AFE1AF md:hidden"
           >
             <NavLinks isMobile />
           </motion.div>
